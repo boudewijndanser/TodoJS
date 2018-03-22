@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Passion+One');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 500px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: #38A1E8;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Passion One', cursive;
+  font-size: 80px;
+  color: #fff;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Passion One', cursive;
+  font-size: 26px;
+}
+
+
+form {
+  padding: 0 0 20px;
+
+}
+
+input#new-todo {
+  display: block;
+  width: 478px;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  color: #22638F;
+
+}
+
+ul#todolist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #22638F;
+}
+
+ul#todolist li {
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+ul#todolist li:hover {
+  background-color: #e6e6e6;
+}
+
+ul#todolist .todo.completed label {
+  text-decoration: line-through;
+  color: #38A1E8;
+}
+
+.footer {
+  margin-top: 5px;
+  background: #22638F;
+  color: #3DB0FC;
+  padding: 16px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.footer a:link,
+.footer a:hover,
+.footer a:visited {
+  color: #3DB0FC;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
